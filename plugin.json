@@ -1,0 +1,23 @@
+{
+	"id": "nodebb-plugin-hide-category",
+	"url": "https://github.com/d-yuri/nodebb-plugin-hide-category",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+		"static/lib/main.js"
+	],
+	"acpScripts": [
+		"static/lib/admin.js"
+	],
+	"templates": "static/templates"
+}

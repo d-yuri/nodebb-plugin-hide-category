@@ -1,10 +1,6 @@
-# Post notifier by email AWS Plugin for NodeBB
-
-Plugin to send email topic for topic creator if users add new post.
-
-Letter send with ASW service only
+# Make Category available only by link
 
 
 ## Installation
 
-    npm install nodebb-plugin-post-notifier
+    npm install nodebb-plugin-hide-category

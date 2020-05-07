@@ -1,0 +1,107 @@
+{
+  "_from": "nodebb-plugin-hide-category@0.0.2",
+  "_id": "nodebb-plugin-hide-category@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-M6VVqhEBzsLFg54nBB1vkrbI5+6DVml+DCTC9zguS8i4w4eG/LyPUHsVSDN3An+jEiLRRs1ceWSwfcuwh6WtFw==",
+  "_location": "/nodebb-plugin-hide-category",
+  "_phantomChildren": {
+    "@babel/code-frame": "7.8.3",
+    "@types/color-name": "1.1.1",
+    "@types/parse-json": "4.0.0",
+    "dedent": "0.7.0",
+    "error-ex": "1.3.2",
+    "get-stream": "5.1.0",
+    "human-signals": "1.1.1",
+    "import-fresh": "3.2.1",
+    "isexe": "2.0.0",
+    "json-parse-better-errors": "1.0.2",
+    "lines-and-columns": "1.1.6",
+    "listr2": "1.3.8",
+    "log-symbols": "3.0.0",
+    "merge-stream": "2.0.0",
+    "micromatch": "4.0.2",
+    "normalize-path": "3.0.0",
+    "npm-run-path": "4.0.1",
+    "onetime": "5.1.0",
+    "please-upgrade-node": "3.2.0",
+    "signal-exit": "3.0.3",
+    "string-argv": "0.3.1",
+    "stringify-object": "3.3.0",
+    "strip-final-newline": "2.0.0",
+    "yaml": "1.9.2"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "nodebb-plugin-hide-category@0.0.2",
+    "name": "nodebb-plugin-hide-category",
+    "escapedName": "nodebb-plugin-hide-category",
+    "rawSpec": "0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "0.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nodebb-plugin-hide-category/-/nodebb-plugin-hide-category-0.0.2.tgz",
+  "_shasum": "3af525a2b9790dfda1ed36b97b07c84162114366",
+  "_spec": "nodebb-plugin-hide-category@0.0.2",
+  "_where": "/var/www/forum",
+  "author": {
+    "name": "d-yuri",
+    "email": "dobroovlskiyuri@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/d-yuri/nodebb-plugin-hide-category/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "lint-staged": "^10.0.9"
+  },
+  "deprecated": false,
+  "description": "Category hide",
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-angular": "^7.1.2",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^2.4.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "homepage": "https://github.com/d-yuri/nodebb-plugin-hide-category#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "post",
+    "notifier"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "main": "library.js",
+  "name": "nodebb-plugin-hide-category",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-yuri/nodebb-plugin-hide-category.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.1"
+}
